@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap');
+*{
+   font-family:Andika ;
+}
+
+body{
+   background-color: #fbdcb8;
+   overflow: hidden;
+   position: absolute;
+   width: 100vw;
+   height: 100vh;
+}
+
+.circle{
+   position: relative;
+    bottom: -21%;
+    right: -1%;
+    width: 8vw;
+    height: 15vh;
+    background: #c6a2dd57;
+    border-radius: 50%;
+}
+
+.circle1{
+   position: relative;
+   bottom: -43%;
+    right: 10%;
+    width: 18vw;
+    height: 34vh;
+   background: #fc42ff30;
+    border-radius: 50%;
+}
+
+.circle2{
+   position: relative;
+   bottom: 12%;
+    right: -25%;
+    width: 14vw;
+    height: 28vh;
+    background: #fc42ff1f;
+    border-radius: 50%;
+}
+
+.content{
+   width: 37vw;
+   height: 91vh;
+   position: absolute;
+   top: 0%;
+   display: flex;
+   align-items: center;
+}
+
+.content .container{
+   margin-left: 5rem;
+   width: 36rem;
+}
+
+.content .container h1{
+   font-size: 5em;
+   line-height: 1.2;
+   text-shadow: -6px -6px #d5a9a9;
+}
+.content .container p{
+   font-size: 1em;
+}
+.shape{
+   width: 70rem;
+   height: 70rem;
+   background-color: #c6a2dd;
+   border-radius: 50%;
+   position: relative;
+   top: -99%;
+   right: -49%;
+   overflow: hidden;
+}
+
+img{
+   position: absolute;
+   left: 62%;
+   bottom: 14%;
+   height: 65%;
+   width: 32%;                   
+}
+
+.box{
+   position: absolute;
+   top: 29%;
+   right: 8.5rem;
+   width: 20rem;
+   background-color: #fbdcb8;
+   box-shadow: inset 0px 0px 6px #5f5062;
+   height: 20rem;
+   border-radius: 50%;
+   animation: animatebox 20s linear infinite;
+
+}
+
+@keyframes animatebox{
+   to {
+      transform: rotate(360deg);
+   }
+}
+
+.box img{
+   top: 47%;
+   left: 50%;
+   width: 21rem;
+   height: 20rem;
+   border-radius: 50%;
+   transform: translate(-50%, -50%);
+   overflow: hidden;
+}

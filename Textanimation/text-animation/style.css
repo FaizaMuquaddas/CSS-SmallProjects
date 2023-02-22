@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@900&family=Poppins:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Catamaran;
+}
+
+body{
+    display: flex;
+    background: #b5b2b2;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container h2{
+    position: absolute;
+    font-size: 10vw;
+    transform: translate(-50%, -50%);
+}
+
+.container h2:nth-child(1){
+    color: #161414;
+    /* -webkit-text-stroke-color:2px #a33dac; */
+}
+
+.container h2:nth-child(2){
+    color: #8c5197;
+    animation: animate 2s ease-in-out infinite;
+}
+
+@keyframes animate{
+    /* beginning and ending of the animation */
+    0%,
+    100% {
+        clip-path: polygon(0% 45%, 16% 44%, 33% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+    }
+    
+    /* moving animation */
+    50% {
+        clip-path: polygon(0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+    }
+}

@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100;200&family=Comfortaa:wght@400;500&family=Della+Respira&family=Glass+Antiqua&family=Montserrat:wght@300&family=Nunito:wght@300;400;500;600;700;900&family=Playfair+Display&family=Poppins:wght@100;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+
+.dropdown-menu {
+  background-color: gray;
+  color: white;
+}
+
+.dropdown-menu li a {
+  color: yellowgreen;
+}
+
+.container1 {
+width: 100%;  
+height: 5px;
+padding-top: px;
+}
+
+.navbar-brand{
+  font-weight: bold;
+  font-style: inherit;
+}
+
+/*shivam*/
+
+.minimg {
+  display: flex;
+  width: 100%;
+  height: 556px;
+    background-image: linear-gradient(rgb(0 0 0 / 45%), rgb(0 0 0 / 65%)), url(image/astro.jpg);
+    background-size: 100%;
+    position: relative;
+}
+
+.name{
+    font-family: Della Respira;
+    left: 53rem;
+    top: 25rem;
+    font-size: 9rem;
+    font-weight: 100;
+    color: #b1e2edfa;
+    position: absolute;
+}
+
+.quote{
+  left: 36rem;
+  top: 36rem;
+  color: #fff;
+  position: absolute;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.break{
+  text-align: center;
+    left: 13.7em;
+    top: 3rem;
+    line-height: 0px;
+    font-size: 16px;
+    position: absolute;
+    font-weight: 100;
+}
+.header {
+    display: flex;
+    position: absolute;
+    justify-content: right;
+    right: 84px;
+    top: 5%;
+    width: 100%;
+}
+.header a {
+  color: rgb(179, 220, 235);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* logo link  */
+.header a.logo {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: rgba(173, 216, 230, 0.445);
+  color: black;
+}
+
+ @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+  /*shivam*/
+  /*sonam*/
+.banner {
+  margin-top: -1%;
+  width: 100%;
+  height: 430px;
+  background-image: linear-gradient(rgb(34 13 100 / 34%), rgb(6 6 6 / 81%)), url(image/pexels-miriam-espacio-2694037.jpg);
+  background-size: contain; 
+  background-attachment: fixed;
+}
+.banner div {
+  position: absolute;
+  top: 79%;
+  color: #fff;
+}
+.heading {
+  font-family: Della Respira;
+  font-weight: 320px;
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 167px;
+  letter-spacing: 12px;
+}
+.paragraph {
+  text-align: center;
+  padding: 4rem;
+  padding-left: 16rem;
+  padding-right: 16rem;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 29px;
+}
+
+@media(max-width:576px)
+ {
+    .banner{
+        width: 1000px
+    }
+
+    .paragraph{
+      width: 1000px
+  }
+ }
+ @media(max-width:767px)
+ {
+    .banner{
+        width: 1000px
+    }
+    
+      .paragraph{
+            width: 1000px
+        }
+ }
+ 
+
+/*sonam*/
+/*faiza*/
+.head {
+  font-family: Della Respira;
+  text-align: center;
+  padding-bottom: 15px;
+  color: #fff;
+  font-size: 39px;
+  font-weight: 600;
+  margin-top: 4%;
+}
+
+
+.services {
+  margin-top: 0%;
+  padding: 15px 9%;
+  padding-bottom: 3rem;
+  background-color: #161515;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 2em;
+  padding: 2em 5em;
+}
+
+.categories {
+  border-radius: 18px;
+  text-align: center;
+  padding: 5px 20px;
+  height: 150px;
+}
+
+.categories:hover {
+  transition: .2s linear;
+  transform: scale(1.03);
+}
+
+.serimg {
+  height: 74px;
+  position: relative;
+  left: 8rem;
+  bottom: 38px;  
+}
+
+.type {
+  font-family: Comfortaa;
+  font-weight: 600;
+  color: rgb(248, 240, 240);
+  font-size: 23px;
+  text-align: initial;
+  margin: 29px 17px;
+  padding: 0px 0;
+  width: 149px;
+  text-shadow: 2px 3px 3px #161515;
+  text-transform: capitalize;
+}
+
+.button {
+  position: absolute;
+  background-color: #05050500;
+  border: none;
+  color: #ffffff;
+  font-size: 13px;
+    padding: 8px;
+    width: 113px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 1px -177px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+@media  (max-width:768px){
+    .services{
+        padding:20px;
+    }
+}
+
+/*faiza*/
+
+/* anjali */
+h2 {
+  /* color: white; */
+  font-family: Della Respira;
+}
+
+.zcontainer {
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  row-gap: 120px;
+  margin: 63px 0px 187px 182px;
+}
+
+.box {
+  width: 75px;
+  margin: 0 10px;
+  background-color: white;
+  clip-path: circle();
+}
+
+.box img {
+  display: block;
+  width: 100%;
+}
+
+.box:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+.a {
+  position: relative;
+    color: white;
+    right: 92px;
+    font-size: 14px;
+    top: 107px;
+    text-align: center;
+}
+
+.b {
+  position: relative;
+    color: white;
+    right: 92px;
+    font-size: 14px;
+    top: 107px;
+    text-align: center;
+}
+/* anjali */
+
+/* shalini */
+.contain {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.btn {
+  width: 17%;
+  height: 130px;
+  font-size: 18px;
+  background-color: #b4d5d0;
+  border-radius: 8px;
+  border: none;
+}
+
+.btn1 {
+    border-radius: 14px;
+    height: 54px;
+    width: 24%;
+    font-family: Della Respira;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 4%;
+    background-color: #d1bd9a;
+    border: 1 solid white;
+    position: absolute;
+    right: 37%;
+    border: 0;
+    cursor: pointer;
+}
+
+.astro {
+  background: #d1dae9;
+  border-radius: 8px;
+  width: 33%;
+}
+.p1 {
+  display: flex;
+}
+h4 {
+  line-height: 0;
+  margin-top: 20%;
+}
+
+.amid{
+	width: 33%; margin-left: 5%; margin-top: 4%}
+	.amid img{
+		width:75%;
+		border-radius: 50%;
+	}
+.amid.i{
+		margin-left: 8%;
+		font-size: 12px;
+	}
+	.amid p{
+		line-height: 1.5;
+		color: red;
+	}
+	.amid .f{
+	display: flex;
+	 justify-content: space-between;
+	 font-size: 20px;
+   cursor: pointer;
+	
+	}
+  
+@media(max-width: 768px)
+{
+.contain{
+	width: 100%;
+}
+.btn{
+width: 100%;
+}
+.btn1
+{width: 100%;}
+.astro{
+	width: 100%;
+}
+.amid{
+	width: 100%;
+ margin-left: 5%; margin-top: 4%}
+}
+.i{
+	width: 100%;
+ margin-left: 8%;
+    font-size: 12px;
+
+}
+.parg{
+ margin-top: 12%;
+    width: 100%;
+    line-height: 1.5;
+}
+.f{
+	width: 100%;
+ display: flex;
+   justify-content: space-between;
+   font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .contain {
+    width: 50px;
+    margin-bottom: 30px;
+  }
+}
+/* shalini */
+
+
+/*DEEPAK*/
+
+.row{
+  display: flex;
+  flex-wrap: wrap ;
+}
+.row1{
+  display: flex;
+  flex-wrap: wrap ;
+}
+.container{
+  max-width: 1170px;
+ 
+  margin: auto;   
+
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #24262b ;
+  padding: 70px 0;
+  margin-top: 5%;
+}
+.footer-col{
+  width: 24.5%;
+  padding: 0 15px;
+
+
+}
+.footer-col h4{
+  font-size: 18px;
+  color:#ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+  /* //background-color: red; */
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ui li:not(:last-child ){
+  margin-bottom: 10px;
+
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none; 
+  font-weight: 300;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color:#ffffff;
+  padding-left: 10px;
+
+}
+.footer-col .social-links a{ 
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin: 0 10px 10px 0 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+   
+}
+.footer-col .social-links a:hover{
+  color: 24262b;
+  /* background-color: #ffffff;  */
+  background-color: tomato;  
+  
+}
+
+.addr{
+  color: #bbbbbb;
+}
+
+@media(max-width: 767px)
+{
+  .footer-col{
+      width: 50px;
+      margin-bottom: 30px;
+  }
+
+}
+@media(max-width: 574px)
+{
+  .footer-col{
+      width: 1000px;
+  
+  }
+
+}
